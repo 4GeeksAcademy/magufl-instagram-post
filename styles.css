@@ -1,0 +1,83 @@
+
+#fondo {
+    position: relative;
+    background-color: black;
+    display: flex;
+}
+#estructura{
+    background-color: white;
+    padding: 20px;
+    text-align: center;
+    position: absolute;
+    left: 30%;
+    right: 30%;
+}
+
+#header{
+    display: flex;
+}
+#header-izq{
+    display: flex;
+    flex-direction: row;
+    width: 50%;
+}
+#header-izq-icono{
+    font-size: 35px;
+}
+#header-dcha{
+    width: 50%;
+}
+#header-dcha-icono{
+    font-size: 25px;
+    float: right;
+}
+p{
+    margin: unset;
+
+}
+h1{
+    margin: unset;
+    display: block;
+    margin-block-start: 0em;
+    margin-block-end: 0em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+}
+#texto{
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    padding-left: 3px;
+}
+#foto {
+    margin-top: 0 ;
+    margin-bottom: 0;
+    width: 100%;    
+}
+img {
+    width: 100%;
+    display: block; 
+    padding-bottom: 10px;
+}
+#iconos{
+    display: flex;
+    flex-direction: row;
+    font-size: 30px;
+    padding-bottom: 10px;
+}
+#footer-iconos-izq{
+    width: 50%;
+    text-align: left;
+}
+#footer-iconos-dcha{
+    width: 50%;
+    text-align: right;
+}
+#likes{
+    text-align: left;
+}
+#description{
+    text-align: left;
+    padding-top: 10px;
+}
